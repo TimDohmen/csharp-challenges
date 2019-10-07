@@ -36,10 +36,25 @@ namespace morningChallenge.Models
       string[] fileName = x.Split('.');
       if (fileName.Length > 1)
       {
+        // return fileName[fileName.Length - 1];
         //^means start from end and work way back from there
         return fileName[^1];
       }
       return null;
+    }
+
+    public static string LongString(string[] x)
+    {
+      string longest = "";
+      for (int i = 0; i < x.Length; i++)
+      {
+        string current = x[i];
+        if (current.Length > longest.Length)
+        {
+          longest = current;
+        }
+      }
+      return longest;
     }
 
   }
