@@ -10,7 +10,14 @@ namespace morningChallenge
       Console.WriteLine("Hello World!");
 
       System.Console.WriteLine(Challenges.doubleInteger(10));
+      System.Console.WriteLine(Challenges.doubleInteger(5.5));
       System.Console.WriteLine(Challenges.isNumEven(18));
+      System.Console.WriteLine(Challenges.isNumEven(17));
+      System.Console.WriteLine(Challenges.GetFileExt("hello.txt"));
+      System.Console.WriteLine(Challenges.GetFileExt("hello.txt.bcw"));
+      System.Console.WriteLine(Challenges.LongString(new string[] { "a", "b", "vc", "wond" }));
+      System.Console.WriteLine(Challenges.ArraySum(new int[] { 6, 10, 12 }));
+
 
       //   System.Console.WriteLine("Part One - Double Integer");
       //   string choice = Console.ReadLine().ToLower();

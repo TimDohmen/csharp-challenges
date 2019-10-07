@@ -57,5 +57,38 @@ namespace morningChallenge.Models
       return longest;
     }
 
+    public static int ArraySum(int[] x)
+    {
+      int sum = 0;
+      for (int i = 0; i < x.Length; i++)
+      {
+        sum += x[i];
+      }
+
+
+      return sum;
+    }
+    public static float ArraySum(float[] x)
+    {
+      float sum = 0;
+      for (int i = 0; i < x.Length; i++)
+      {
+        sum += x[i];
+      }
+
+
+      return sum;
+    }
+    public static double ArraySum(double[] x)
+    {
+      double sum = 0;
+      for (int i = 0; i < x.Length; i++)
+      {
+        sum += x[i];
+      }
+
+
+      return sum;
+    }
   }
 }
