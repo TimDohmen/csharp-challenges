@@ -1,0 +1,11 @@
+C:\source\codeworks\csharp\morningChallenge\bin\Debug\netcoreapp3.0\morningChallenge.exe
+C:\source\codeworks\csharp\morningChallenge\bin\Debug\netcoreapp3.0\morningChallenge.deps.json
+C:\source\codeworks\csharp\morningChallenge\bin\Debug\netcoreapp3.0\morningChallenge.runtimeconfig.json
+C:\source\codeworks\csharp\morningChallenge\bin\Debug\netcoreapp3.0\morningChallenge.runtimeconfig.dev.json
+C:\source\codeworks\csharp\morningChallenge\bin\Debug\netcoreapp3.0\morningChallenge.dll
+C:\source\codeworks\csharp\morningChallenge\bin\Debug\netcoreapp3.0\morningChallenge.pdb
+C:\source\codeworks\csharp\morningChallenge\obj\Debug\netcoreapp3.0\morningChallenge.csprojAssemblyReference.cache
+C:\source\codeworks\csharp\morningChallenge\obj\Debug\netcoreapp3.0\morningChallenge.AssemblyInfoInputs.cache
+C:\source\codeworks\csharp\morningChallenge\obj\Debug\netcoreapp3.0\morningChallenge.AssemblyInfo.cs
+C:\source\codeworks\csharp\morningChallenge\obj\Debug\netcoreapp3.0\morningChallenge.dll
+C:\source\codeworks\csharp\morningChallenge\obj\Debug\netcoreapp3.0\morningChallenge.pdb
