@@ -31,5 +31,16 @@ namespace morningChallenge.Models
       return num % 2 == 0;
     }
 
+    public static string GetFileExt(string x)
+    {
+      string[] fileName = x.Split('.');
+      if (fileName.Length > 1)
+      {
+        //^means start from end and work way back from there
+        return fileName[^1];
+      }
+      return null;
+    }
+
   }
 }
