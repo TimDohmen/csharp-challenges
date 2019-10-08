@@ -1,3 +1,6 @@
+using System.Collections.Generic;
+using System.Linq;
+
 namespace morningChallenge.Models
 {
   public class Challenges
@@ -90,5 +93,36 @@ namespace morningChallenge.Models
 
       return sum;
     }
+
+    public static List<List<int>> ArrayGrouper(int[] arr)
+    {
+      Dictionary<int, List<int>> dict = new Dictionary<int, List<int>>();
+      foreach (int num in arr)
+      {
+        // if (dict.ContainsKey(num))
+        // {
+        //   dict[num].Add(num);
+        // }
+        // else
+        // {
+        //   dict.Add(num, new List<int>());
+        //   dict[num].Add(num);
+        // }
+
+        if (dict.ContainsKey(num))
+        {
+          dict.Add(num, new List<int>());
+        }
+
+        dict[num].Add(num);
+
+      }
+
+      return dict.Values.ToList();
+
+
+    }
+
+
   }
 }
