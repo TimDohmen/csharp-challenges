@@ -113,7 +113,7 @@ namespace morningChallenge.Models
         {
           dict.Add(num, new List<int>());
         }
-
+        7
         dict[num].Add(num);
 
       }
@@ -123,6 +123,22 @@ namespace morningChallenge.Models
 
     }
 
+    public static int[][] Grouper(int[] arrOld)
+    {
+      Dictionary<int, List<int>> dict = new Dictionary<int, List<int>>();
+      foreach (int num in arrOld)
+      {
+        if (dict.ContainsKey(num))
+        {
+          dict.Add(num, new List<int>());
+        }
+        dict[num].Add(num);
+      }
+      var values = dict.Values.ToList();
+      var intList = new List<int[]>();
+      values.ForEach(v => intList.Add(v.ToArray()));
+      return intList.ToArray();
 
+    }
   }
 }
