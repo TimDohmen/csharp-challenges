@@ -19,30 +19,32 @@ namespace morningChallenge
       System.Console.WriteLine(Challenges.ArraySum(new int[] { 6, 10, 12 }));
 
 
-      System.Console.WriteLine("Part One - Double Integer");
-      string choice = Console.ReadLine().ToLower();
+      // System.Console.WriteLine("Part One - Double Integer");
+      // string choice = Console.ReadLine().ToLower();
 
-      if (int.TryParse(choice, out int index))
-      {
-        System.Console.WriteLine(Challenges.doubleInteger(index));
-      }
-      else
-      {
-        System.Console.WriteLine("Enter a Number");
-      }
+      // if (int.TryParse(choice, out int index))
+      // {
+      //   System.Console.WriteLine(Challenges.doubleInteger(index));
+      // }
+      // else
+      // {
+      //   System.Console.WriteLine("Enter a Number");
+      // }
 
-      System.Console.WriteLine("Part Two - Is Number Even");
-      string choiceTwo = Console.ReadLine().ToLower();
-      if (int.TryParse(choice, out int indexTwo))
-      {
-        System.Console.WriteLine(Challenges.isNumEven(indexTwo));
-      }
-      else
-      {
-        System.Console.WriteLine("Enter a Number");
-      }
+      // System.Console.WriteLine("Part Two - Is Number Even");
+      // string choiceTwo = Console.ReadLine().ToLower();
+      // if (int.TryParse(choice, out int indexTwo))
+      // {
+      //   System.Console.WriteLine(Challenges.isNumEven(indexTwo));
+      // }
+      // else
+      // {
+      //   System.Console.WriteLine("Enter a Number");
+      // }
 
-
+      System.Console.WriteLine(Challenges.kaprekar(7132));
+      System.Console.WriteLine(Challenges.kaprekar(8912));
+      System.Console.WriteLine(Challenges.Kaprakars(7351));
 
     }
   }

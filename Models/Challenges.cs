@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -113,7 +114,7 @@ namespace morningChallenge.Models
         {
           dict.Add(num, new List<int>());
         }
-        7
+
         dict[num].Add(num);
 
       }
@@ -140,5 +141,31 @@ namespace morningChallenge.Models
       return intList.ToArray();
 
     }
+
+
+    public static int Kaprakars(int num)
+    {
+
+
+      int count = 0;
+
+      while (num != 6174)
+      {
+        count++;
+        var ascending = string.Join("", num.ToString().OrderBy(x => x));
+        int newNum = 0;
+        int.TryParse(ascending, out newNum);
+
+        var descending = string.Join("", num.ToString().OrderByDescending(x => x));
+
+        System.Console.WriteLine(ascending + "-" + descending);
+      }
+
+      return count;
+    }
+
+
+
+
   }
 }
