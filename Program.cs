@@ -42,9 +42,12 @@ namespace morningChallenge
       //   System.Console.WriteLine("Enter a Number");
       // }
 
-      System.Console.WriteLine(Challenges.kaprekar(7132));
-      System.Console.WriteLine(Challenges.kaprekar(8912));
       System.Console.WriteLine(Challenges.Kaprakars(7351));
+
+      System.Console.WriteLine(Challenges.Kaprakars(7841));
+      System.Console.WriteLine(Challenges.Kaprakars(8193));
+      ;
+
 
     }
   }

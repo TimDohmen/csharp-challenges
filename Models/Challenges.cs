@@ -152,17 +152,22 @@ namespace morningChallenge.Models
       while (num != 6174)
       {
         count++;
-        var ascending = string.Join("", num.ToString().OrderBy(x => x));
+        string ascending = string.Join("", num.ToString().OrderBy(x => x));
         int newNum = 0;
         int.TryParse(ascending, out newNum);
 
-        var descending = string.Join("", num.ToString().OrderByDescending(x => x));
 
+        string descending = string.Join("", num.ToString().OrderByDescending(x => x));
+        int numTwo = 0;
+        int.TryParse(descending, out numTwo);
+        num = numTwo - newNum;
         System.Console.WriteLine(ascending + "-" + descending);
+        System.Console.WriteLine(numTwo - newNum);
       }
 
       return count;
     }
+
 
 
 
